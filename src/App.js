@@ -6,6 +6,8 @@ import Footer from './component/Footer';
 import Contact from './pagess/Contact';
 import Headers from './component/Headers';
 import Authe from './component/Authe';
+import About from './component/About';
+import Service from './component/Service';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
  <Route path='/contact' element={<Contact/>} />
  <Route path='/register' element={<Authe  register/>} />
  <Route path='/login' element={<Authe />} />
+ <Route path='about' element={<About/>} />
+ <Route path='service' element={<Service/>} />
     </Routes>
     <Footer/>
     </div>

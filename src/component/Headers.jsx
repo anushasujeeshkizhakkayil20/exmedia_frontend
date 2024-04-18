@@ -10,8 +10,8 @@ function Headers() {
         <Container>
          <Link to={'/'} style={{textDecoration:'none'}}> <Navbar.Brand href="#home" style={{textDecoration:'none'}}>Home</Navbar.Brand></Link>
           <Nav className="me-auto">
-            <Nav.Link href="#home"  style={{textDecoration:'none'}}>About</Nav.Link>
-            <Nav.Link href="#features" style={{textDecoration:'none'}}>Service</Nav.Link>
+          <Link to={'/about'}  style={{textDecoration:'none'}}> <Nav.Link href="#home"  style={{textDecoration:'none'}}>About</Nav.Link></Link>
+          <Link to={'/service'} style={{textDecoration:'none'}}>  <Nav.Link href="#features" style={{textDecoration:'none'}}>Service</Nav.Link></Link>
            <Link to={'/contact'} style={{textDecoration:'none'}}> <Nav.Link href="#pricing"  style={{textDecoration:'none'}}>Contact</Nav.Link></Link>
           </Nav>
         </Container>
